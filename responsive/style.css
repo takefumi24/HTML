@@ -4,4 +4,22 @@ html, body {
   padding: 0;
 }
 
-.
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.list {
+  background-color: #f9f7cb;
+  width: 300px;
+  height: 100px;
+  border: 1px solid;
+  text-align: center;
+  line-height: 100px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+#list-selected {
+  background-color: #fada6b;
+}
