@@ -65,4 +65,41 @@ a {
 
 /* カードリスト */
 
+.card-section {
+  width: 1020px;
+  margin: 0 auto;
+  padding: 130px 0;
+}
+
+.card-section-title{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item{
+  width: 320px;
+  border: 1px solid #152a5c;
+}
+
+.card-img{
+  position: relative;
+}
+
+.card-img h3{
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  /* top: 15px; */
+  font-size: 20px;
+}
+
+.card-text{
+  padding: 15px 25px;
+}
 /* フッター */
