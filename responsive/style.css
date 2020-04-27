@@ -5,21 +5,70 @@ html, body {
 }
 
 ul {
-  padding: 0px;
-  margin: 0px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  /* display: flex; */
+}
+
+.lists {
+  display: flex;
+  /* width: 100%; */
 }
 
 .list {
-  background-color: #f9f7cb;
-  width: 300px;
-  height: 100px;
-  border: 1px solid;
+  background-color: yellow;
+  font-size: 20px;
+  height: 60px;
+  width: 33%;
   text-align: center;
-  line-height: 100px;
-  margin-bottom: 10px;
   list-style: none;
+  line-height: 60px;
+  font-weight: bold;
 }
 
-#list-selected {
-  background-color: #fada6b;
+.list--black {
+  background-color: black;
+  color: yellow;
+  width: 34%;
+}
+
+.contents {
+  background-color: gray;
+  height: 800px;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.blue-content {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.right-content {
+  background-color: green;
+  height: 500px;
+  width: 200px;
 }
