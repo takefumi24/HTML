@@ -3,33 +3,3 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
-.top-content {
-  background-color: red;
-  width: 400px;
-  height: 150px;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.middle-content {
-  background-color: white;
-  width: 398px;
-  height: 148px;
-  border: 1px solid;
-  font-size: 25px;
-  text-align: center;
-  line-height: 150px;
-}
-
-.bottom-content{
-  background-color: black;
-  width: 400px;
-  height: 150px;
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  line-height: 150px;
-}
