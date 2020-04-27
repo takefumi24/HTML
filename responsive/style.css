@@ -4,23 +4,4 @@ html, body {
   padding: 0;
 }
 
-.contents {
-  background-color: lightgray;
-  width: 800px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-content {
-  background-color: red;
-  width: 150px;
-  height: 150px;
-  margin-left: 50px;
-}
-
-.right-content{
-  background-color: blue;
-  width: 150px;
-  height: 150px;
-  margin-right: 50px;
-}
+.
